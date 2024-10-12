@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/estiloDaCalculadora.css">
+
+</head>
+<body id="caixa_calculadora">
+
+ <div class="div_display"><input type="text" id="display" disabled class="todos_botoes"></div>
+
+<div class="todos_botoes">
+    <input type="button" value="7" id="sete" onmousedown="sete()" class="botao_da_calculadora">
+    <input type="button" value="8" id="oito" onmousedown="oito()" class="botao_da_calculadora">
+    <input type="button" value="9" id="nove" onmousedown="nove()" class="botao_da_calculadora">
+    <input type="button" value="CE" id="CE" onmousedown="zerar001()" class="botao_da_calculadora">
+    <input type="button" value="C" id="C" onmousedown="zerar()" class="botao_da_calculadora">
+    <input type="button" value="4" id="quatro" onmousedown="quatro()" class="botao_da_calculadora">
+    <input type="button" value="5" id="cinco" onmousedown="cinco()" class="botao_da_calculadora">
+    <input type="button" value="6" id="seis" onmousedown="seis()" class="botao_da_calculadora">
+    <input type="button" value="/" id="dividir" onmousedown="divisao()" class="botao_da_calculadora">
+    <input type="button" value="*" id="multiplicar" onmousedown="multiplicacao()" class="botao_da_calculadora">
+    <input type="button" value="1" id="um" onmousedown="um()" class="botao_da_calculadora">
+    <input type="button" value="2" id="dois" onmousedown="dois()" class="botao_da_calculadora">
+    <input type="button" value="3" id="tres" onmousedown="tres()" class="botao_da_calculadora">
+    <input type="button" value="-" id="menos" onmousedown="subtracao()" class="botao_da_calculadora">
+    <input type="button" value="+" id="mais" onmousedown="adicao()" class="botao_da_calculadora">
+    <input type="button" value="0" id="zero" onmousedown="zero()" class="botao_da_calculadora">
+    <input type="button" value="." id="ponto" onmousedown="ponto()" class="botao_da_calculadora">
+    <input type="button" value="=" id="igual" onmousedown="igual()" class="botao_da_calculadora">
+</div>
+
+    <script src="src/logicaDaCalculadora.js"></script>
+
+</body>
+</html>

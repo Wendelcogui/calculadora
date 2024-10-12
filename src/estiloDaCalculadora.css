@@ -1,0 +1,81 @@
+.todos_botoes {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 4 colunas iguais */
+    grid-gap: 10px;
+    padding: 30px;
+    width: 100%;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #72808F;
+    border: 3px solid #000;
+}
+.botao_da_calculadora {
+    width: 100%; 
+    height: 70px; /* Altura padronizada para todos os botões */
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #000;
+    color: rgb(255, 255, 255);
+}
+#display {
+    grid-column: span 4; /* ocupa todas as 4 colunas */
+    height: 40px;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 100px;
+    padding: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid #000;
+}
+.div_display{
+    width: 357px;
+}
+#mais {
+    grid-row: span 2; /*ocupa 2 linhas */
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #4B647F;
+}
+#igual {
+    grid-column: span 2; /*ocupa 2 colunas */
+    top: 0px;
+    left: px;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4B647F;
+}
+#multiplicar, #CE, #C, #menos, #dividir{
+    top: -5px;
+    left: -55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#4B647F;
+}
+#oito, #nove, #quatro, #cinco, #seis, #um, #dois, #tres, #zero, #ponto, #sete{
+    top: -5px;
+    left: -55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #11375E;
+}
+#caixa_calculadora {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
